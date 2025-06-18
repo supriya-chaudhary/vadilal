@@ -1,0 +1,33 @@
+
+.mycard
+{
+height: 450px;
+background-color: #fee4ca;
+border-radius:30px;
+transition: 0.5s ease;
+}
+.mycard div img
+{
+    transform: rotate(-20deg);
+    transition: 0.4s ease;
+
+}
+.mycard:hover{
+    margin-top:-20px;
+
+
+}
+.mycard:hover div img
+{
+margin-top: -110px;
+transform:rotate(0deg) ;
+filter: drop-shadow(50px 5px 50px rgba(0,0,0,0.5));
+
+}
+.text-chocklate{
+    color: #6b3d2b;
+}
+
+.mycard div a{
+    box-shadow: 4px 4px 0px black;
+}
